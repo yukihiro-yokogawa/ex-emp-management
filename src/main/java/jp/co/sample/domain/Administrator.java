@@ -4,7 +4,7 @@ package jp.co.sample.domain;
  * @author yukihiro.yokogawa
  * 管理者情報を表すドメインです.
  */
-public class Adiministrator {
+public class Administrator {
 
 	// ID
 	private Integer id;
@@ -17,7 +17,7 @@ public class Adiministrator {
 
 	@Override
 	public String toString() {
-		return "Adiministrator [id=" + id + ", name=" + name + ", mailAddress=" + mailAddress + ", password=" + password
+		return "Administrator [id=" + id + ", name=" + name + ", mailAddress=" + mailAddress + ", password=" + password
 				+ "]";
 	}
 
